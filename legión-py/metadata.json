@@ -1,0 +1,6 @@
+{
+  "name": "Legión PY",
+  "description": "Tienda de ropa y calzado para caballero en Paraguay. Estilo masculino, catálogo exclusivo y atención directa por WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

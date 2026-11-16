@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-white: #ffffff;
+    --bg-soft: #f8f8f8;
+    --text-black: #111111;
+    --text-muted: #555555;
+    --gold: #d4af37;
+    --gold-dark: #9b7718;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+  }
+
+  body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #111111;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #8b6914 0%, #d4af37 50%, #9e781c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gold-btn-gradient {
+  background: linear-gradient(135deg, #c8a02e 0%, #f0d77b 50%, #c49b26 100%);
+}
+
+.gold-btn-gradient:hover {
+  background: linear-gradient(135deg, #b88e1f 0%, #e7ca61 50%, #b38a1b 100%);
+}
+
+.gold-divider {
+  height: 1px;
+  width: 100%;
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.55) 50%,
+    transparent 100%
+  );
+}
+
+.gold-divider-short {
+  height: 2px;
+  width: 72px;
+  margin: 14px auto 0;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent 0%, #d4af37 50%, transparent 100%);
+}
